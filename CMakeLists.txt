@@ -5,6 +5,9 @@ set(CMAKE_C_STANDARD 11)
 
 set(SOURCES
     ../src/main.c
+    ../src/movement.c
+    ../src/win_man.c
+    ../src/num_man.c
 )
 
 add_executable(licznik ${SOURCES})
