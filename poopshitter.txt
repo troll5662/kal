@@ -1,0 +1,19 @@
++------------------------[Licznik]---------------------+
+|                                                      |
+|      Wynik:                                          |
+|                                                      |
+|      Podaj numer 1: [_________________________]      |
+|      Podaj numer 2: [_________________________]      |
+|                                                      |
+|      Wybierz operacje:  (+) (-) (*) (/) (%)          |
+|                        (sin)   (cos)   (pow)         |
+|      Wybrana operacja: >   <                         |
+|                                                      |
+|                                                      |
+|      ! Tylko numer 1 jest uzywany do sin i cos       |
+|                                                      |
+|                       <Licz>                         |
++------------------------------------------------------+
+|      [Strzalki] Poruszanie    [Enter] Potwierdz      |
+|      [Spacja]   Wybierz       [q]     Wyjdz          |
++------------------------------------------------------+
