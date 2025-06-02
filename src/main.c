@@ -25,6 +25,7 @@ int main(int argc, char *argv[]) {
     wrefresh(help_window);
 
     start_color();
+    use_default_colors();
     init_pair(1, COLOR_BLACK, COLOR_WHITE);
 
     wattron(main_window, COLOR_PAIR(1));
@@ -161,7 +162,7 @@ int main(int argc, char *argv[]) {
                         break;
 
                     case 5:
-                        mvwchgat(main_window, OPTIONS1_Y, OPTIONS1_X + 16, strlen(OPTION_MOD_TXT), A_NORMAL, 1, NULL);
+                        mvwchgat(main_window, OPTIONS1_Y, OPTIONS1_X + 16, strlen(OPTION_MOD_TXT) - 1, A_NORMAL, 1, NULL);
                         break;
 
                     case 6: 
